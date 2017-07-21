@@ -1,3 +1,6 @@
+h1 {
+  text-align: center;
+}
 div {
   display: flex;
   flex-wrap:wrap;
@@ -5,7 +8,7 @@ div {
 }
 article {
   width: 30.3%;
-  padding-left: 20px;
+  padding-left: 37px;
 }
 article:nth-last-child(1) {
   background: lightgrey;
@@ -15,4 +18,116 @@ article:nth-last-child(3) {
 }
 article:nth-last-child(2) {
   background: OldLace;
+}
+html {
+  font-family: 'Droid Sans', sans-serif;
+  color: #293d3d;
+}
+.circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 130px;
+  width: 130px;
+  border-radius: 50%;
+  border: 1px;
+  border-style: solid;
+}
+.circle2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 130px;
+  width: 130px;
+  border-radius: 50%;
+  border: 1px;
+  border-style: solid;
+}
+main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin:20px;
+}
+section {
+  width: 50%;
+  padding-left: 37px;
+  padding: 30px;
+}
+div {
+  display: flex;
+  align-self: flex-start;
+}
+section:nth-last-child(1) {
+  background: Khaki;
+}
+section:nth-last-child(2) {
+  background: OldLace;
+}
+.desc {
+  position: relative;
+  right: 126px;
+  top: 155px;
+}
+.desc2 {
+  position: relative;
+  right: 100px;
+  top: 155px;
+}
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+span {
+
+  width: 30.3%;
+  padding-left: 37px;
+}
+span:nth-last-child(1) {
+  background: OldLace;
+}
+span:nth-last-child(2) {
+  background: Khaki;
+}
+span:nth-last-child(3) {
+  background: lightgrey;
+}
+h3 {
+  border-bottom: 0.2px solid;
+}
+.circle3 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 75px;
+  width: 80px;
+  border-radius: 50%;
+  border: 1px;
+  border-style: solid;
+}
+.circle4 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 75px;
+  width: 80px;
+  border-radius: 50%;
+  border: 1px;
+  border-style: solid;
+}
+.circle5 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 75px;
+  width: 80px;
+  border-radius: 50%;
+  border: 1px;
+  border-style: solid;
+}
+.a-flex {
+  display: flex;
+  flex-wrap: nowrap;
 }
